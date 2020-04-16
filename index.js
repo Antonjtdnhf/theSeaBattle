@@ -3,16 +3,17 @@ let loc2 = 3;
 let loc3 = 4;
 let isSunk = false;
 let guesses = 0;
+let guess;
 let hits = 0;
 
 while (isSunk === false) {
-    let guess = +prompt("", "2");
+    guess = +prompt("", "2");
     if (guess === loc1) {
         alert(" You've hit the ship!");
         guesses++;
         hits++;
         while (isSunk === false) {
-            let guess = +prompt("", "2");
+            guess = +prompt("", "2");
             if (guess === loc1) {
                 alert(" Already has been hit!");
                 guesses++;
@@ -21,7 +22,7 @@ while (isSunk === false) {
                 hits++;
                 guesses++;
                 while (isSunk === false) {
-                    let guess = +prompt("", "2");
+                    guess = +prompt("", "2");
                     if (guess === loc2 || guess === loc1) {
                         alert(" Already has been hit!");
                         guesses++;
@@ -40,7 +41,7 @@ while (isSunk === false) {
                 hits++;
                 guesses++;
                 while (isSunk === false) {
-                    let guess = +prompt("", "2");
+                    guess = +prompt("", "2");
                     if (guess === loc3 || guess === loc1) {
                         alert(" Already has been hit!");
                         guesses++;
@@ -64,7 +65,7 @@ while (isSunk === false) {
         guesses++;
         hits++;
         while (isSunk === false) {
-            let guess = +prompt("", "2");
+            guess = +prompt("", "2");
             if (guess === loc2) {
                 alert(" Already has been hit!");
                 guesses++;
@@ -73,7 +74,7 @@ while (isSunk === false) {
                 hits++;
                 guesses++;
                 while (isSunk === false) {
-                    let guess = +prompt("", "2");
+                    guess = +prompt("", "2");
                     if (guess === loc2 || guess === loc1) {
                         alert(" Already has been hit!");
                         guesses++;
@@ -92,7 +93,7 @@ while (isSunk === false) {
                 hits++;
                 guesses++;
                 while (isSunk === false) {
-                    let guess = +prompt("", "2");
+                    guess = +prompt("", "2");
                     if (guess === loc3 || guess === loc2) {
                         alert(" Already has been hit!");
                         guesses++;
@@ -116,7 +117,7 @@ while (isSunk === false) {
         guesses++;
         hits++;
         while (isSunk === false) {
-            let guess = +prompt("", "2");
+            guess = +prompt("", "2");
             if (guess === loc2) {
                 alert(" Already has been hit!");
                 guesses++;
@@ -125,7 +126,7 @@ while (isSunk === false) {
                 hits++;
                 guesses++;
                 while (isSunk === false) {
-                    let guess = +prompt("", "2");
+                    guess = +prompt("", "2");
                     if (guess === loc2 || guess === loc1) {
                         alert(" Already has been hit!");
                         guesses++;
@@ -144,7 +145,7 @@ while (isSunk === false) {
                 hits++;
                 guesses++;
                 while (isSunk === false) {
-                    let guess = +prompt("", "2");
+                    guess = +prompt("", "2");
                     if (guess === loc3 || guess === loc2) {
                         alert(" Already has been hit!");
                         guesses++;
@@ -168,7 +169,7 @@ while (isSunk === false) {
         guesses++;
         hits++;
         while (isSunk === false) {
-            let guess = +prompt("", "2");
+            guess = +prompt("", "2");
             if (guess === loc3) {
                 alert(" Already has been hit!");
                 guesses++;
@@ -177,7 +178,7 @@ while (isSunk === false) {
                 hits++;
                 guesses++;
                 while (isSunk === false) {
-                    let guess = +prompt("", "2");
+                    guess = +prompt("", "2");
                     if (guess === loc3 || guess === loc1) {
                         alert(" Already has been hit!");
                         guesses++;
@@ -196,7 +197,7 @@ while (isSunk === false) {
                 hits++;
                 guesses++;
                 while (isSunk === false) {
-                    let guess = +prompt("", "2");
+                    guess = +prompt("", "2");
                     if (guess === loc3 || guess === loc2) {
                         alert(" Already has been hit!");
                         guesses++;
