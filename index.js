@@ -220,4 +220,5 @@ while (isSunk === false) {
         guesses++;
     }
 }
+document.write("You've won with " + guesses + " guesses! Nice try!");
 alert("You've won!");
