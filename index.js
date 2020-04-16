@@ -1,3 +1,4 @@
+//variable declaration
 let loc1 = 2;
 let loc2 = 3;
 let loc3 = 4;
@@ -6,6 +7,7 @@ let guesses = 0;
 let guess;
 let hits = 0;
 
+//block with game logic
 while (isSunk === false) {
     guess = +prompt("Ready,aim,fire! (Enter a number from 0-6)", "2");
     if (guess === loc1) {
