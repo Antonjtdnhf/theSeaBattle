@@ -1,7 +1,7 @@
 //variable declaration
-let loc1 = 2;
-let loc2 = 3;
-let loc3 = 4;
+let loc1 = Math.floor(Math.random() * 5);
+let loc2 = loc1 +1;
+let loc3 = loc2 +1;
 let isSunk = false;
 let guesses = 0;
 let guess;
