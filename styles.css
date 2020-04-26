@@ -1,8 +1,11 @@
 *{
     margin: 0;
-    pading: 0;
+    padding: 0;
 }
+
+
 .game-board {
+    position: relative;
     height: 863px;
     width: 1024px;
     background: url("images/board.jpg") no-repeat;
@@ -11,4 +14,40 @@
 .game-board h1 {
     color: lime;
     padding: 10px;
+}
+
+.message-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    rgba(83, 175, 19);
+}
+.guesses-table {
+    position: absolute;
+    left: 173px;
+    top: 98px;
+    border-spacing: 0;
+}
+.guesses-table td {
+    width: 95px;
+    height: 96px;
+}
+form {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+    background-color: rgb(83, 175, 19);
+}
+.guess-input {
+    background-color: rgb(152, 207, 113);
+    border-color: rgb(83, 175, 19);
+    font-size: 1em;
+}
+
+.hit {
+    background: url("images/ship.png") no-repeat center center;
+}
+.miss {
+    background: url("images/miss.png") no-repeat center center;
 }
