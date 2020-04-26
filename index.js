@@ -1,3 +1,4 @@
+/*
 //variable declaration
 let loc1 = Math.floor(Math.random() * 5);
 let loc2 = loc1 +1;
@@ -224,4 +225,4 @@ while (isSunk === false) {
     }
 }
 document.write("You've won with " + guesses + " guesses! Nice try!");
-alert("You've won!");
+alert("You've won!");*/

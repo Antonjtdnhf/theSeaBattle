@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    pading: 0;
+}
+.appWrapper {
+    height: 863px;
+    width: 1024px;
+    background: url("images/board.jpg") no-repeat;
+    margin: auto;
+}
+.appWrapper h1 {
+    color: lime;
+    padding: 10px;
+}
