@@ -18,9 +18,10 @@
 
 .message-area {
     position: absolute;
-    top: 0;
+    top: 60px;
     left: 0;
-    rgba(83, 175, 19);
+    color: rgba(83, 175, 19 , 1);
+    font-size: 24px;
 }
 .guesses-table {
     position: absolute;
